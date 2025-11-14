@@ -5,4 +5,11 @@ if((x%4==0 and x%100!=0 ) or x%400==0):
 else:
     print(f'given year{x} is not leap year')
 
+# common leap yr x%4==0 and x%100!=0
+#             OR
+# special leap yr x%400==0
+
+
+
+
        
