@@ -12,7 +12,7 @@ print(l2)
 l3=s.split('s')
 print(l3)
 
-l4=s.replace('i','z',1)
+l4=s.replace('i','z',2)
 print(l4)
 
 a="this is python class"
