@@ -1,0 +1,6 @@
+def show():
+    x=10
+    def display():
+        print(x)
+    display()
+show()       
