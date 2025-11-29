@@ -26,9 +26,9 @@
 
 # n=int(input("enter no."))
 # x=lambda
-
+from functools import reduce
 l=[1,2,3,4,5]
 # print(list(map(lambda n:n**2,l)))
 # print(list(filter(lambda n : 'even'if n%2==0 else None,l)))
-print(list(reduce()))
+print((reduce(lambda x,y: x+y ,l,0)))
 
