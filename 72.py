@@ -13,5 +13,5 @@ class child(parent):
 
 obj=child()   
 obj.home() 
-obj1=parent()
-obj1.home()            
+# obj1=parent()
+# obj1.home()            

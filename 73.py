@@ -1,3 +1,4 @@
+# multiple inheritance 
 class father:
     def home(self):
         print("home from father")
@@ -9,7 +10,7 @@ class mother:
         print("home from mother")
         # father().home()
         # father.home(self) 
-class child(mother,father): 
+class child(father,mother): 
     def home(self):
         print("home from child")
         super().home()

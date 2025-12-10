@@ -1,4 +1,4 @@
-#hybrid inheritance
+# hierarchial inheritance
 class A:
     def home(self):
         print("from class A")
@@ -10,9 +10,7 @@ class B(A):
 class C(A):
     def home(self):
         print("from class C")  
-        super().home()   
-class D(B,C):
-    pass
+        super().home()  
 
-obj=D()
+obj=C()
 obj.home()
