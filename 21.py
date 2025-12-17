@@ -1,4 +1,4 @@
-d={'name':'tanmay','age':22,'quali':'btech'}
+d={'name':'tanmay','age':22,'quali':'btech','xx':33}
 print(d)
 print(max(d))
 #print(sum(d))

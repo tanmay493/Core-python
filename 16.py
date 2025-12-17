@@ -3,7 +3,7 @@ l=s.split()
 print(l)
 
 s1="1234567"
-l1=s1.split('*')
+l1=s1.split('+')
 print(l1)
 
 l2=s.split('s',2)
