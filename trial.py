@@ -1,0 +1,11 @@
+f=open('n2.txt','r+')
+# data=f.read()
+# print(data)
+# data=f.read(10)
+# print(data)
+# data=f.read(5)#cursor position is 10th
+# print('last:',data)
+# data=f.readline(7)
+# print(data)
+data=f.readlines()
+print(data)
